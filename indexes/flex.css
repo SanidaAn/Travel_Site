@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+}
+
+.flex-container
+{
+    display: flex;
+    background: whitesmoke;
+
+    flex-wrap: wrap;
+}
+
+.box
+{
+    height: 100px;
+    min-width: 200px;
+    /* flex-grow: 1; */
+}
+
+.one
+{
+   
+    background-color: red;
+}
+
+.two
+{
+    background-color:blue ;
+}
+
+.three
+{
+    background-color:green ;
+}

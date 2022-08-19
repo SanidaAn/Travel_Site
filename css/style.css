@@ -1,0 +1,603 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* ######## HEADER ########## */
+
+.header
+{
+    z-index: 2;
+}
+ 
+ /* remove paddings from default bootstrap navbar <div class="container-fluid">*/
+body > div:nth-child(1)
+{
+  padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+
+/* ######## NAVBAR ########## */
+ /* remove paddings from default bootstrap navbar   <nav class="navbar navbar-expand-lg navbar-light border-bottom">*/
+.navbar > div:nth-child(1)
+{  
+    padding-right: var(--bs-gutter-x,3rem);
+    padding-left: var(--bs-gutter-x,3rem);  
+}
+
+/* navbar color */
+.navbar
+{
+    /* background-color: #e3f2fd;  rgb(107, 143, 157)*/
+    background-color: rgba(107, 143, 157, 0.486);
+}
+
+
+.navbar-brand
+ {
+    /* border: solid 2px rgb(183, 206, 52); */
+    padding-left: 1em;
+    padding-right: 1em;
+ }
+
+ .navbar-nav li.nav-item
+ {
+    /* border: solid 2px rgb(23, 109, 49); */
+    padding-left: 1em;
+    padding-right: 1em;
+ }
+ 
+
+ /* ######## HERO SECTION ########## */
+.hero
+{
+  position: relative;
+  height: 70vh;  
+  overflow: hidden;
+  /* border:2px solid blue; */
+ }
+
+/* HERO SECTION BG-IMG */
+.jumbotron{
+    /* background-image: url("../images/oia_santorini.jpg") ; */
+     /* https://unsplash.com/photos/Bmx1VE5jjy0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink */
+    background-size: cover;
+    position: absolute;
+    min-width: 100%;
+    /* min-height: 100%;10-6 */
+    min-height: 100%;
+
+    /* padding text in the middle of jumbotron */
+    padding-top: 20em;
+    /* padding-bottom: 5em;  10-6 */
+
+    /* border:10px solid yellow; */
+
+  }
+
+  .parallax_effect
+  {
+    /* background: #000; */
+    /* background: linear-gradient(
+        rgba(209, 201, 201, 0.5),
+        rgba(0,0,0,0.8)
+        ),
+        url("../images/cristiano-pinto-92SYXeHA1u0-unsplash.jpg"); */
+        background: url("../images/cristiano-pinto-92SYXeHA1u0-unsplash.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 100%;
+        min-height: 100%;
+        /* padding-top: 15em;
+        padding-bottom: 5em; 10-6 */
+        /* border:2px solid red; */
+  }
+
+  /* .hero_overlay
+  {
+      position:absolute;
+      /* background-color: rgba(107, 143, 157, 0.486); */
+      /* background-color: rgba(111, 117, 119, 0.5);
+      z-index: 1;
+      top: 0;
+      bottom:0;
+      left: 0;
+      right:0;
+  }
+ */ 
+
+
+ .jumbotron > div:nth-child(1)
+ {
+     /* border: solid 2px blue; */
+     /* background-color: black; */
+     /* border: solid; */
+ }
+
+
+ .hr_element
+ {
+    /* background-color: rgb(255, 255, 255);
+    border: 4px; */
+    /* color:rgb(255, 255, 255); */
+    color:#79A0B9;
+    opacity: .8;
+  }
+
+  /* !!!!!!!!!!!! prepei na ftiaksw to keimeno kai se alla viewports giati mikrainei para poli apo ena simeio kai pera */
+  .jumbotron_title{
+    color:white;
+    /* font-size:5em; */
+    font-size:5vw;
+    /* text-shadow: #79A0B9 1px 0 10px; */
+    text-shadow: #245a7b 5px 5px 20px;
+  }
+
+ .jumbotron_paragraph{
+    color:white;
+    font-size:2vw;
+    text-shadow: #245a7b 5px 5px 20px;
+ }
+
+/* 
+ .navbar-nav
+ {
+    border: solid 2px rgb(206, 61, 206);
+ } */
+
+/* ################ Quote section start ################ */
+.card-body{
+  /* border:2px solid red; */
+}
+/* ################ Quote section end ################ */
+ /* Card section  */
+.card-text,.cart-title{
+    /* font-size:100%; */
+}
+
+.col-sm-12{
+  /* max-height:10%; */
+  /* max-width:50%; */
+}
+
+ .card
+ {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+ }
+
+.card-img-top {
+    /* max-height: 80rem;/*3-6-22 */
+    /* max-height: 80rem; */
+    /* min-height: 100vh; */
+    
+    /* object-fit: cover; */
+    /* border: 2px solid red;  */
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+
+}
+
+/* div.col-sm-12:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+  height:40vh;
+} */
+
+
+/* img:nth-child(1){
+  max-height:40%;
+  /* max-width: 60%; 
+} */
+
+
+
+/* ########## PARALLAX SECTION 2 ########## */
+.parallax_effect_2
+{
+  /* background: #000; */
+      background: url("../images/stijn-de-vries-kbMao2VbNuY-unsplash.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-width: 100%;
+      min-height: 100%;
+      padding-top: 10em;
+      padding-bottom: 10em; 
+}
+
+.hr_element_second
+{
+    color:rgb(255, 255, 255);
+    opacity: .8;    
+}
+
+.bg{
+  /* background-color:#245a7b41; */
+  /* border: #d6249f 2px solid; */
+  padding-left: 4rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  /* blur */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+  box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.963);
+  /* box-shadow: 0px 5px 25px 25px rgba(0, 0, 0, 0.432); */
+  /* box-shadow: 0px 5px 25px 5px rgba(4, 31, 48, 0.963); */
+
+}
+
+
+/* .para-column{
+  background-color:#245a7b;
+  border: #d6249f 2px solid;
+} */
+
+
+.parallax_2{
+  color:white;
+  /* font-size:5em; */
+  font-size:3vw;
+  /* text-shadow: #79A0B9 1px 0 10px; */
+  /* text-shadow: #245a7b 5px 5px 20px; */
+  text-shadow: #041f30 5px 5px 20px;
+  /* text-shadow: 5px 5px 20px #0b3b59, 5px 5px 20px#2b3236; */
+}
+
+.parallax_paragraph_2{
+  color:white;
+  /* color:#245a7b; */
+  font-size:3vw;
+  text-shadow: #020f17 5px 5px 20px;
+  font-weight:800;
+  width:90%;
+}
+
+
+/* ########### SECTION UPCOMING TOURS ########## */
+.text_container{
+  /* border:2px solid red; */
+}
+
+.upcoming_text{
+  width:70%;
+  font-weight:700;
+}
+
+.upcoming_paragraph{
+  width:80%;
+}
+
+.col_container{
+  /* border:2px solid red; */
+}
+
+.button_container{
+  /* border:2px solid red; */
+  /* padding-left:1px; */
+}
+
+.upcoming_button{
+  text-decoration: none;
+  background-color:#7CA0BA;
+  border-radius: 8px;
+  color:white;
+  /* margin-left:40px; */
+  margin-left:6%;
+  
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ END BUTTON ~~~~~~~~~~~~~~~~~~ */
+
+/* small photos */
+#photo_1{
+    /* width:400px;
+    height:280px; */
+    width:25rem;
+    height:17.5rem;
+    
+}
+/* big photos */
+#photo_2{
+    /* width:400px;
+    height:430px; */
+    width:25rem;
+    height:26.8rem;
+
+}
+
+/* ~~~~~~~~~~~ EFFECT BIG PHOTOS ~~~~~~~~~~~~*/
+.img-hover-zoom{
+  width:400px;
+  height:430px;
+  overflow: hidden;
+  position:relative;
+  
+}
+
+.img-hover-zoom #photo_2{
+  width: 100%;
+  /* transition: 0.5s all ease-out; */
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.img-hover-zoom:hover #photo_2{
+  /* transform:scale(1.5); */
+  transform:scale(1);
+}
+
+/* button & a */
+/* put title on the img */
+.title{
+  position: absolute;
+  /* width: 500px; */
+  /* width:300px; */
+  width:70%;
+  left: 0;
+  top: 180px;
+  left: 50px;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+  z-index: 1;
+  transition: top .5s ease;
+  text-shadow: #101011b9 5px 5px 20px;
+  border-top:solid white;
+  border-bottom:solid white;
+  border-width: 1px;
+  
+}
+
+.img-hover-zoom:hover .title{
+  top: 150px;
+}
+
+/* put button on img */
+.button{
+  position: absolute;
+  /* width: 500px; */
+  /* width:400px; */
+  width:70%;
+  left:15%;
+  /* top: 250px; */
+  top: 70%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  
+}
+
+.button .link_img{
+  width: 400px;
+  padding: 12px 30px;
+  text-align: center;
+  color: white;
+  /* border: solid 2px white; */
+  z-index: 1;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(17, 17, 18, 0.529);
+}
+
+.img-hover-zoom:hover .button{
+  opacity: 1;
+}
+
+/* ~~~~~~~~~~ SMALL photos ~~~~~~~~~~~~ */
+.img-hover-zoom-small{
+  width:400px;
+  height:280px;
+  overflow: hidden;
+  position:relative;
+}
+
+.img-hover-zoom-small #photo_1{
+  width: 100%;
+  /* transition: 0.5s all ease-out; */
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.img-hover-zoom-small:hover #photo_1{
+  /* transform:scale(1.5); */
+  transform:scale(1);
+}
+
+/* button & a */
+/* put title on the img */
+.title_1{
+  position: absolute;
+  /* width: 500px; */
+  width:62%;
+  left: 0;
+  top: 100px;
+  left:70px;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+  border-top:solid white;
+  border-bottom:solid white;
+  border-width: 1px;
+  
+  /* border:solid; */
+  text-shadow: #101011b9 5px 5px 20px;
+  
+}
+
+.img-hover-zoom-small:hover .title_1{
+  top: 70px;
+}
+
+/* put button on img */
+.button_1{
+  position: absolute;
+  /* width: 500px; */
+  /* width:400px;
+  left:0;
+  top: 150px; */
+  width:70%;
+  left:15%;
+  /* top: 250px; */
+  top: 70%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button_1 .link_img_1{
+  width: 200px;
+  padding: 12px 30px;
+  text-align: center;
+  color: white;
+  /* border: solid 2px rgba(4, 31, 48, 1); */
+  z-index: 1;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(17, 17, 18, 0.529);
+}
+
+.img-hover-zoom-small:hover .button_1{
+  opacity: 1;
+}
+
+
+
+/* ~~~~~~~~~~~ EFFECT 2 ~~~~~~~~~~~~*/
+
+/* END SECTION UPCOMING TOURS  */
+
+.footer
+{
+    background-color: #8daec2bb;
+}
+
+
+/* ############ Social icons effet ############# */
+.wrapper {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+  
+  i {
+    padding: 0px 10px;
+  }
+  
+  /* facebook_icon */
+  .wrapper i:nth-child(1) {
+    color: #4867AA;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper i:nth-child(1):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+  }
+  
+  /* twitter_icon */
+  .wrapper i:nth-child(2) {
+    color: #1DA1F2;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper i:nth-child(2):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+  }
+  
+ /* instagram_icon */
+  .wrapper i:nth-child(3) {
+    color: transparent;
+    background-clip:text;
+    background-image:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.316);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper i:nth-child(3):hover {
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    transform: translate(0, -5);
+  }
+
+/* ~~ ########### MEDIA QUERIES ############# ~~ */
+
+
+@media (min-width: 430px) and (max-width: 991.98px){
+    #navbarNavDropdown > ul{
+        /* background-color: rgb(107, 143, 157); */
+        background-color: rgba(107, 143, 157, 0.767);
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~ SECTION CARDS MEDIA QUERIES ~~~~~~~~~~~~~~~~ */
+
+@media (min-width:992px) and (max-width: 1416px){
+  /* #photo_1{
+    width:200px;
+    height:80px;
+    
+} */
+/* big photos */
+/* #photo_2{
+    width:200px;
+    height:230px;
+} */
+
+
+}
+
+/* Scroll back to top button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  /* background-color: red; */
+  background-color: rgb(63, 169, 210);
+  box-shadow: 0px 8px 15px rgba(26, 25, 25, 0.648);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 14px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
